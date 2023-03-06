@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: #ADD8E6;
+    padding-top: 1em;
+    padding-bottom: 1em;
+   
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 0.5em;
+
+}
+h1{
+    font-size: 16px;
+    font-weight: 400;
+}
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    background-color: #DAA520;
+    justify-content: space-between;
+    max-width:70%;
+    margin: 0 auto;
+    height: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+
+}
+.flexblue{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bgpink{
+    height: 80%;
+    width: 60%;
+    background-color: pink;
+}

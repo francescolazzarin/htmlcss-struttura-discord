@@ -79,5 +79,48 @@ h1{
     margin-top:50px;
     margin-bottom: 50px;
 }
+.grigioscuro{
+    min-height: 740px;
+    background-color: #23272A;
+}
+.flexfooter{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    min-height:570px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction:column;
+}
+.perc{
+    width: calc(100% /4);
+}
+hr{
+    color: white;
+}
+.noteflex{
 
+    display: flex;
+    background-color: aquamarine;
+    margin: 0 auto;
+    max-width: 70%;
+    min-height: 80px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.logo{
+    font-size: 16px;
+    background-color: pink;
+    align-self: center;
+    align-content: center;
 
+}
+.bottone{
+    font-size: 16px;
+    background-color: pink;
+    align-self: center;
+    align-content: center;
+}

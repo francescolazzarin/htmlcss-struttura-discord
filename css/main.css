@@ -3,13 +3,11 @@
     margin: 0;
     padding: 0;
 }
-header{
-    height: auto;
-}
 .bg{
     background-color: #ADD8E6;
     padding-top: 1em;
     padding-bottom: 1em;
+    
    
 }
 nav>a{
@@ -29,21 +27,57 @@ h1{
     justify-content: space-between;
     max-width:70%;
     margin: 0 auto;
-    height: 3em;
     padding-left: 1em;
     padding-right: 1em;
-    
-
+    min-height: 3em;
 }
 .flexblue{
     display: flex;
     background-color: blue;
-    justify-content: center;
-    align-items: center;
-    
+    min-height: 500px;   
 }
-.bgpink{
-    height: 80%;
-    width: 60%;
-    background-color: pink;
+.bgpurple{
+
+    min-height:80%;
+    width:60%;
+    margin:50px auto;
+    background-color: #EE82EE;
 }
+/* fine header */
+.container{
+    min-height: 600px;   
+    padding-top: 50px;
+}
+.flexmain{
+    display: flex; 
+    margin: 0 auto;
+    width: 70%;
+    min-height: 500px;
+}
+.bgazzurro{
+    background-color: #1E90FF;
+    width: 66%;
+}
+.bgrosa{
+    background-color: #FFC0CB;
+    width: 33%;
+}
+.container.grigio{
+    background-color: #D3D3D3;
+    margin-top: 50px;
+}
+.container.grigio2{
+    background-color: #D3D3D3;
+    min-height: 1000px;
+}
+.flexmain.verde{
+    min-height: 900px;
+    margin-top: 0;
+}
+.verde{
+    background-color: green;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+
